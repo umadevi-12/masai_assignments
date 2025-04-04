@@ -1,0 +1,6 @@
+let num = 971;
+
+// Convert to string, split into array, reverse, join, and convert back to number
+let reversedNum = parseInt(num.toString().split('').reverse().join(''));
+
+console.log(reversedNum);
